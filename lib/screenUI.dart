@@ -34,7 +34,7 @@ class _ScreenDashboardState extends State<ScreenDashboard> {
 if(response.statusCode == 200)
   {
     setState(() {
-      List welcome = welcomeFromMap(response.body);
+      welcome = welcomeFromMap(response.body);
     });
 
   }
